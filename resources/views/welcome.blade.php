@@ -140,9 +140,6 @@
                                 <li class="menu-item"><a class="menu-link" href="#" data-href="#proposal-request">
                                         <div>Live di cafe kamu?</div>
                                     </a></li>
-                                <li class="menu-item"><a class="menu-link" href="#" data-href="#section-sponsors">
-                                        <div>Sponsors</div>
-                                    </a></li>
                             </ul>
 
                         </nav>
