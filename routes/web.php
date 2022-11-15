@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('sc/business')->group(function () {
     Route::get('/proposal/2022', function () {
-        return Redirect::to('/business/stopover-proposal.pdf');
+        return Redirect::to('/business/proposal-makustik-2022.pdf');
     });
 });
 

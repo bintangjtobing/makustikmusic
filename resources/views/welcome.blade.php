@@ -335,7 +335,7 @@
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
                                     <img src="{!!asset('webpage/demos/conference/images/speakers/1.jpg')!!}"
-                                        alt="John Doe">
+                                        alt="Bintang Tobing">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -347,7 +347,7 @@
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
                                     <img src="{!!asset('webpage/demos/conference/images/speakers/2.jpg')!!}"
-                                        alt="John Doe">
+                                        alt="Theo Davinz">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -359,7 +359,7 @@
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
                                     <img src="{!!asset('webpage/demos/conference/images/speakers/3.jpg')!!}"
-                                        alt="John Doe">
+                                        alt="Adi Sinaga">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
