@@ -43,7 +43,7 @@
     <meta name="og:url" property="og:url" content="https://makustikmusic.com" />
     <meta name="og:type" property="og:type" content="website" />
     <meta name="og:image" property="og:image"
-        content="https://res.cloudinary.com/boxity-id/image/upload/v1668396678/makustik-cover_ndfzme.jpgg" />
+        content="https://res.cloudinary.com/boxity-id/image/upload/v1668396678/makustik-cover_ndfzme.jpg" />
     <meta name="og:description" property="og:description"
         content="Hi, we're {{$makustik_name}}, and we are proudly sing at cafes, weddings, gatherings,birthdays, reunions, and outdoors." />
     <meta name="twitter:card" content="{{$makustik_name}} Official {{$Y}}" />
@@ -51,7 +51,7 @@
     <meta name="twitter:url" property="og:url" content="https://makustikmusic.com" />
     <meta name="twitter:type" property="og:type" content="website" />
     <meta name="twitter:image" property="og:image"
-        content="https://res.cloudinary.com/boxity-id/image/upload/v1668396678/makustik-cover_ndfzme.jpgg" />
+        content="https://res.cloudinary.com/boxity-id/image/upload/v1668396678/makustik-cover_ndfzme.jpg" />
     <meta name="twitter:description" property="og:description"
         content="Hi, we're {{$makustik_name}}, and we are proudly sing at cafes, weddings, gatherings,birthdays, reunions, and outdoors." />
     <link rel="canonical" href="https://makustikmusic.com/" />
