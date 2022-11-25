@@ -17,6 +17,9 @@ Route::prefix('sc/business')->group(function () {
     Route::get('/proposal/2022', function () {
         return Redirect::to('/business/proposal-makustik-2022.pdf');
     });
+    Route::get('/proposal/coituz/2022', function () {
+        return Redirect::to('/business/proposal-au-revoir-2022.pdf');
+    });
 });
 
 // Social media link
