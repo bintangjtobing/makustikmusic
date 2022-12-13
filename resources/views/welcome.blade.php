@@ -351,7 +351,20 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
-                                        <h4 class="gradient-text">Theo Davinz </h4><span>Vocalist - @theo_98id</span>
+                                        <h4 class="gradient-text">Theo Davinz</h4><span>Reserve Vocalist -
+                                            @theo_98id</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="team col-lg-4 col-sm-6 mb-5">
+                                <div class="team-image">
+                                    <img src="{!!asset('webpage/demos/conference/images/speakers/4.jpg')!!}"
+                                        alt="David Sihotang">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title">
+                                        <h4 class="gradient-text">David Sihotang</h4><span>Vocalist -
+                                            @david_sihotang</span>
                                     </div>
                                 </div>
                             </a>
@@ -387,6 +400,8 @@
 
                                 <ul class="tab-nav d-flex clearfix">
                                     <li class="flex-fill"><a href="#tabs-portfolio">Portfolio</a></li>
+                                    <li class="flex-fill"><a href="#tabs-wednesday">Wednesday <span
+                                                class="d-none d-md-inline-block">Ev. {{$Y}}</span></a></li>
                                     <li class="flex-fill"><a href="#tabs-1">Saturday <span
                                                 class="d-none d-md-inline-block">Ev. {{$Y}}</span></a></li>
                                     <li class="flex-fill"><a href="#tabs-2">Sunday <span
@@ -436,6 +451,26 @@
                                                         href="https://youtube.com/playlist?list=PLaouje9jvbM9mBVWBx9TGhjlMl3ZoR8yI"
                                                         target="_blank">Janji Rasa</a><small>Click to see our
                                                         porfolio in youtube</small></div>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="tab-content clearfix" id="tabs-wednesday">
+                                        <dl class="row dark mb-0">
+
+                                            <dt class="col-sm-4">
+                                                <div class="schedule-time font-primary">20:30 - 00.00 PM</div>
+                                            </dt>
+                                            <dd class="col-sm-8">
+                                                <div class="schedule-desc">Cello Skypool & Lounge Bar <small><a
+                                                            href="https://instagram.com/celloskypoolbar"
+                                                            target="_blank"></a>Jl. Danau Marsabut No.90, Sei Agul, Kec.
+                                                        Medan Bar., Kota Medan, Sumatera Utara 20114</small>
+                                                    <a href="https://instagram.com/celloskypoolbar" target="_blank"
+                                                        class="social-icon si-medium si-borderless si-light si-rounded si-instagram mt-3">
+                                                        <i class="icon-instagram"></i>
+                                                        <i class="icon-instagram"></i>
+                                                    </a>
+                                                </div>
                                             </dd>
                                         </dl>
                                     </div>
