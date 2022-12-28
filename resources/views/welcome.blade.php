@@ -163,7 +163,7 @@
         <!-- Hero/Slider
 		============================================= -->
         <section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header"
-            style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url('webpage/demos/conference/images/hero-2.jpg') no-repeat center center / cover;">
+            style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url('webpage/demos/conference/images/hero.jpg') no-repeat center center / cover;">
             <div class="slider-inner">
 
                 <div class="vertical-middle">
@@ -343,19 +343,6 @@
                                     </div>
                                 </div>
                             </a>
-
-                            <a href="#" class="team col-lg-4 col-sm-6 mb-5">
-                                <div class="team-image">
-                                    <img src="{!!asset('webpage/demos/conference/images/speakers/2.jpg')!!}"
-                                        alt="Theo Davinz">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title">
-                                        <h4 class="gradient-text">Theo Davinz</h4><span>Reserve Vocalist -
-                                            @theo_98id</span>
-                                    </div>
-                                </div>
-                            </a>
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
                                     <img src="{!!asset('webpage/demos/conference/images/speakers/4.jpg')!!}"
@@ -411,6 +398,28 @@
                                 <div class="tab-container mt-5">
                                     <div class="tab-content clearfix" id="tabs-portfolio">
                                         <dl class="row dark mb-0">
+                                            <dt class="col-sm-4">
+                                                <div class="schedule-time font-primary">2022</div>
+                                            </dt>
+                                            <dd class="col-sm-8"
+                                                style="background-image: url('{!!asset('webpage/demos/conference/images/portfolio/6.jpg')!!}')">
+                                                <div class="schedule-desc"><a
+                                                        href="https://www.youtube.com/playlist?list=PLaouje9jvbM9GLgAA-8FCG5dWvXrIDv5a"
+                                                        target="_blank">Higher Steps and Dining</a><small>Click to see
+                                                        our
+                                                        porfolio in youtube</small></div>
+                                            </dd>
+                                            <dt class="col-sm-4">
+                                                <div class="schedule-time font-primary">2022</div>
+                                            </dt>
+                                            <dd class="col-sm-8"
+                                                style="background-image: url('{!!asset('webpage/demos/conference/images/portfolio/5.jpg')!!}')">
+                                                <div class="schedule-desc"><a
+                                                        href="https://www.youtube.com/playlist?list=PLaouje9jvbM81CAXMFm5N9KcqHPxcEJHX"
+                                                        target="_blank">Cello Sky Pool and Bar</a><small>Click to see
+                                                        our
+                                                        porfolio in youtube</small></div>
+                                            </dd>
                                             <dt class="col-sm-4">
                                                 <div class="schedule-time font-primary">2022</div>
                                             </dt>
