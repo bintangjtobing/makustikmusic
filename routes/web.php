@@ -21,6 +21,9 @@ Route::prefix('sc/business')->group(function () {
         return Redirect::to('/business/proposal-au-revoir-2022.pdf');
     });
 });
+Route::get('/hello-there', function () {
+    return Redirect::to('https://linktr.ee/halo_makustik');
+});
 
 // Social media link
 // Route::get('/linkedin', function () {
