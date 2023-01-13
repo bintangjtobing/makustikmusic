@@ -101,12 +101,12 @@
 						============================================= -->
                         <div id="logo" class="me-lg-0">
                             <a href="#" data-scrollto="#slider" class="standard-logo"
-                                data-dark-logo="{!!asset('webpage/demos/conference/images/makustik-logo-new-black.png')!!}"><img
-                                    src="{!!asset('webpage/demos/conference/images/makustik-logo-new-black.png')!!}"
+                                data-dark-logo="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"><img
+                                    src="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"
                                     alt="{{$makustik_name}} Logo"></a>
                             <a href="#" data-scrollto="#slider" class="retina-logo"
-                                data-dark-logo="{!!asset('webpage/demos/conference/images/makustik-logo-new-black.png')!!}"><img
-                                    src="{!!asset('webpage/demos/conference/images/makustik-logo-new-black.png')!!}"
+                                data-dark-logo="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"><img
+                                    src="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"
                                     alt="{{$makustik_name}} Logo"></a>
                         </div><!-- #logo end -->
 
@@ -682,7 +682,7 @@
                                 <div class="row clearfix">
                                     <div class="col-lg-12 bottommargin-sm clearfix" style="color:#888;">
                                         <img class="mb-3"
-                                            src="{!!asset('webpage/demos/conference/images/makustik-logo-new-black.png')!!}"
+                                            src="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"
                                             alt="{{$makustik_name}} Logo" style="display: block;" height="100">
                                         <p>Hi, we're {{$makustik_name}}, and we are proudly sing at cafes, weddings,
                                             gatherings,birthdays, reunions, and outdoors.</p>
