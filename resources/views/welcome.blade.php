@@ -5,59 +5,54 @@
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <!-- Stylesheets
-	============================================= -->
+ ============================================= -->
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Roboto:400,700&display=swap"
         rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('webpage/css/bootstrap.css??'.rand(10000,99999))!!}" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('webpage/style.css??'.rand(10000,99999))!!}" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('webpage/css/dark.css??'.rand(10000,99999))!!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/css/bootstrap.css??' . rand(10000, 99999)) !!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/style.css??' . rand(10000, 99999)) !!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/css/dark.css??' . rand(10000, 99999)) !!}" type="text/css" />
 
-    <link rel="stylesheet" href="{!!asset('webpage/css/font-icons.css??'.rand(10000,99999))!!}" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('webpage/css/animate.css??'.rand(10000,99999))!!}" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('webpage/css/magnific-popup.css??'.rand(10000,99999))!!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/css/font-icons.css??' . rand(10000, 99999)) !!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/css/animate.css??' . rand(10000, 99999)) !!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/css/magnific-popup.css??' . rand(10000, 99999)) !!}" type="text/css" />
 
-    <link rel="stylesheet" href="{!!asset('webpage/css/custom.css??'.rand(10000,99999))!!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/css/custom.css??' . rand(10000, 99999)) !!}" type="text/css" />
     <!-- Conference Demo Specific Stylesheet -->
-    <link rel="stylesheet" href="{!!asset('webpage/demos/conference/css/fonts.css??'.rand(10000,99999))!!}"
-        type="text/css" />
-    <link rel="stylesheet" href="{!!asset('webpage/css/colors.php?color=222')!!}" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('webpage/demos/conference/conference.css??'.rand(10000,99999))!!}"
-        type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/demos/conference/css/fonts.css??' . rand(10000, 99999)) !!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/css/colors.php?color=222') !!}" type="text/css" />
+    <link rel="stylesheet" href="{!! asset('webpage/demos/conference/conference.css??' . rand(10000, 99999)) !!}" type="text/css" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php $Y = date('Y'); $makustik_name="Makustik Music"; ?>
-    <title>{{$makustik_name}} Official {{$Y}}</title>
-    <meta name="title" content="{{$makustik_name}} Official {{$Y}}">
+    <?php $Y = date('Y');
+    $makustik_name = 'Makustik Music'; ?>
+    <title>{{ $makustik_name }} Official {{ $Y }}</title>
+    <meta name="title" content="{{ $makustik_name }} Official {{ $Y }}">
     <meta name="keywords"
-        content="makustikmusic, makustik, band reguler terbaik di kota medan, akustik di kota medan, reguler akustik di kota medan, reguleran band medan, live music medan, live performance kota medan, {{$makustik_name}} medan">
+        content="makustikmusic, makustik, band reguler terbaik di kota medan, akustik di kota medan, reguler akustik di kota medan, reguleran band medan, live music medan, live performance kota medan, {{ $makustik_name }} medan">
     <meta name="description"
-        content="Hi, we're {{$makustik_name}}, and we are proudly sing at cafes, weddings, gatherings,birthdays, reunions, and outdoors.">
+        content="Hi, we're {{ $makustik_name }}, and we are proudly sing at cafes, weddings, gatherings,birthdays, reunions, and outdoors.">
     <meta name="author" content="Bintang Tobing with Stopover Management">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
 
     {{-- meta --}}
-    <meta name="og:title" property="og:title" content="{{$makustik_name}} Official {{$Y}}" />
+    <meta name="og:title" property="og:title" content="{{ $makustik_name }} Official {{ $Y }}" />
     <meta name="og:url" property="og:url" content="https://makustikmusic.com" />
     <meta name="og:type" property="og:type" content="website" />
-    <meta name="og:image" property="og:image"
-        content="https://res.cloudinary.com/boxity-id/image/upload/v1668396678/makustik-cover_ndfzme.jpg" />
+    <meta name="og:image" property="og:image" content="{!! asset('cover.png') !!}" />
     <meta name="og:description" property="og:description"
-        content="Hi, we're {{$makustik_name}}, and we are proudly sing at cafes, weddings, gatherings,birthdays, reunions, and outdoors." />
-    <meta name="twitter:card" content="{{$makustik_name}} Official {{$Y}}" />
-    <meta name="twitter:title" property="og:title" content="{{$makustik_name}} Official {{$Y}}" />
+        content="Hi, we're {{ $makustik_name }}, and we are proudly sing at cafes, weddings, gatherings,birthdays, reunions, and outdoors." />
+    <meta name="twitter:card" content="{{ $makustik_name }} Official {{ $Y }}" />
+    <meta name="twitter:title" property="og:title" content="{{ $makustik_name }} Official {{ $Y }}" />
     <meta name="twitter:url" property="og:url" content="https://makustikmusic.com" />
     <meta name="twitter:type" property="og:type" content="website" />
-    <meta name="twitter:image" property="og:image"
-        content="https://res.cloudinary.com/boxity-id/image/upload/v1668396678/makustik-cover_ndfzme.jpg" />
+    <meta name="twitter:image" property="og:image" content="{!! asset('cover.png') !!}" />
     <meta name="twitter:description" property="og:description"
-        content="Hi, we're {{$makustik_name}}, and we are proudly sing at cafes, weddings, gatherings,birthdays, reunions, and outdoors." />
+        content="Hi, we're {{ $makustik_name }}, and we are proudly sing at cafes, weddings, gatherings,birthdays, reunions, and outdoors." />
     <link rel="canonical" href="https://makustikmusic.com/" />
-    <link rel="shortcut icon"
-        href="https://res.cloudinary.com/boxity-id/image/upload/v1668396810/Logo_icon_1_ng4rvh.png" type="image/png"
-        sizes="64x64" />
+    <link rel="shortcut icon" href="{!! asset('makustik-logo.png') !!}" type="image/png" sizes="64x64" />
     <meta name="og:email" content="halo@makustikmusic.com" />
     <meta name="og:phone_number" content="085195211098" />
     <meta name="og:country-name" content="Indonesia" />
@@ -78,7 +73,6 @@
         gtag('js', new Date());
 
         gtag('config', 'G-VMLM5VB24R');
-
     </script>
 
 </head>
@@ -86,11 +80,11 @@
 <body class="stretched">
 
     <!-- Document Wrapper
-	============================================= -->
+ ============================================= -->
     <div id="wrapper" class="clearfix">
 
         <!-- Header
-		============================================= -->
+  ============================================= -->
         <header id="header" class="responsive-sticky-header transparent-header dark header-size-sm"
             data-sticky-shrink="false">
             <div id="header-wrap">
@@ -98,16 +92,14 @@
                     <div class="header-row justify-content-lg-between">
 
                         <!-- Logo
-						============================================= -->
+      ============================================= -->
                         <div id="logo" class="me-lg-0">
                             <a href="#" data-scrollto="#slider" class="standard-logo"
-                                data-dark-logo="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"><img
-                                    src="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"
-                                    alt="{{$makustik_name}} Logo"></a>
+                                data-dark-logo="{!! asset('webpage/demos/conference/images/makustik-logo-new-min.png') !!}"><img src="{!! asset('webpage/demos/conference/images/makustik-logo-new-min.png') !!}"
+                                    alt="{{ $makustik_name }} Logo"></a>
                             <a href="#" data-scrollto="#slider" class="retina-logo"
-                                data-dark-logo="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"><img
-                                    src="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"
-                                    alt="{{$makustik_name}} Logo"></a>
+                                data-dark-logo="{!! asset('webpage/demos/conference/images/makustik-logo-new-min.png') !!}"><img src="{!! asset('webpage/demos/conference/images/makustik-logo-new-min.png') !!}"
+                                    alt="{{ $makustik_name }} Logo"></a>
                         </div><!-- #logo end -->
 
                         <div id="primary-menu-trigger">
@@ -123,21 +115,24 @@
                         </div>
 
                         <!-- Primary Navigation
-						============================================= -->
+      ============================================= -->
                         <nav class="primary-menu">
 
                             <ul class="menu-container not-dark one-page-menu" data-easing="easeInOutExpo"
                                 data-speed="1250" data-offset="160">
-                                <li class="menu-item"><a class="menu-link" href="#" data-href="#section-about">
+                                <li class="menu-item"><a class="menu-link" href="#"
+                                        data-href="#section-about">
                                         <div>Cerita Singkat</div>
                                     </a></li>
-                                <li class="menu-item"><a class="menu-link" href="#" data-href="#profil-personil">
+                                <li class="menu-item"><a class="menu-link" href="#"
+                                        data-href="#profil-personil">
                                         <div>Profil Personil</div>
                                     </a></li>
                                 <li class="menu-item"><a class="menu-link" href="#" data-href="#schedule">
                                         <div>Jadwal</div>
                                     </a></li>
-                                <li class="menu-item"><a class="menu-link" href="#" data-href="#proposal-request">
+                                <li class="menu-item"><a class="menu-link" href="#"
+                                        data-href="#proposal-request">
                                         <div>Live di cafe kamu?</div>
                                     </a></li>
                             </ul>
@@ -161,7 +156,7 @@
         </header><!-- #header end -->
 
         <!-- Hero/Slider
-		============================================= -->
+  ============================================= -->
         <section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header"
             style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url('webpage/demos/conference/images/hero.jpg') no-repeat center center / cover;">
             <div class="slider-inner">
@@ -172,7 +167,8 @@
                             <div class="col-lg-6 parallax" data-0="transform: translateY(0px); opacity: 1"
                                 data-300="transform: translateY(50px); opacity: 0">
                                 <span class="gradient-underline h4">We're acoustic band</span>
-                                <h2 class="fw-bold display-2 mb-0">{{$makustik_name}} <sup>®{{$Y}}</sup></h2>
+                                <h2 class="fw-bold display-2 mb-0">{{ $makustik_name }}
+                                    <sup>®{{ $Y }}</sup></h2>
                                 <div class="mt-3">
                                     <a href="/whatsapp" target="_blank"
                                         class="social-icon si-large si-borderless si-light si-rounded si-whatsapp">
@@ -218,26 +214,27 @@
         </section><!-- #Slider end -->
 
         <!-- Content
-		============================================= -->
+  ============================================= -->
         <section id="content" style="background-color: #000;">
             <div class="content-wrap pt-0" style="overflow: visible;">
 
                 <!-- Section About
-				============================================= -->
+    ============================================= -->
                 <div id="section-about" class="section page-section bg-transparent pt-0 clearfix">
 
                     <div class="container clearfix">
 
                         <div class="mb-5 dark">
                             <span class="display-4 fw-bold gradient-underline font-primary">Cerita Singkat
-                                {{$makustik_name}}</span>
+                                {{ $makustik_name }}</span>
                         </div>
 
                         <div class="clear"></div>
 
                         <div class="row justify-content-around dark">
                             <div class="col-md-6">
-                                <p class="text-white-50">Makustik Music Band adalah sebuah grup band yang terbentuk pada
+                                <p class="text-white-50">Makustik Music Band adalah sebuah grup band yang terbentuk
+                                    pada
                                     tanggal 6 Juni 2019. Didirikan atas dasar kecintaan setiap personilnya terhadap
                                     musik. Masing-masing personil memiliki berbagai latar belakang dan basik yang
                                     berbeda namun memiliki visi dan misi yang sama dalam bermain musik, Makustik Music
@@ -261,7 +258,8 @@
                                     audience akan merasa terhibur, merasa puas dengan penampilan Makustik Music Band
                                     serta jika diizinkan oleh yang maha kuasa, ingin dan pasti kembali lagi ke tempat
                                     yang bersangkutan, untuk mengunjungi Café dan Resto anda. Besar harapan kami untuk
-                                    bisa bekerjasama dengan Café dan Resto anda.</p>
+                                    bisa bekerjasama dengan Café dan Resto anda.
+                                </p>
                                 <div class="row mt-5">
                                     <div class="col-6 col-sm-3">
                                         <div class="counter gradient-text"><span data-from="0" data-to="4"
@@ -305,13 +303,11 @@
                             <div class="col-md-5">
                                 <div class="about-img position-relative">
                                     <div class="my-3 my-lg-0">
-                                        <div class="gradient-bg"><img
-                                                src="{!!asset('webpage/demos/conference/images/about/1.jpg')!!}"
+                                        <div class="gradient-bg"><img src="{!! asset('webpage/demos/conference/images/about/1.jpg') !!}"
                                                 alt="About Image"></div>
                                     </div>
                                     <div data-0="top: 160px" data-end="top: 120px">
-                                        <div class="gradient-bg"><img
-                                                src="{!!asset('webpage/demos/conference/images/about/2.jpg')!!}"
+                                        <div class="gradient-bg"><img src="{!! asset('webpage/demos/conference/images/about/2.jpg') !!}"
                                                 alt="About Image"></div>
                                     </div>
                                 </div>
@@ -325,7 +321,7 @@
                 <div class="clear"></div>
 
                 <!-- Section Speakers
-				============================================= -->
+    ============================================= -->
                 <div id="profil-personil" class="section page-section bg-transparent pt-0 topmargin-lg clearfix">
                     <div class="container">
                         <div class="mb-5 dark d-flex flex-wrap justify-content-between align-items-center">
@@ -334,8 +330,7 @@
                         <div class="row mx-auto dark" style="max-width: 1000px;">
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
-                                    <img src="{!!asset('webpage/demos/conference/images/speakers/1.jpg')!!}"
-                                        alt="Bintang Tobing">
+                                    <img src="{!! asset('webpage/demos/conference/images/speakers/1.jpg') !!}" alt="Bintang Tobing">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -345,8 +340,7 @@
                             </a>
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
-                                    <img src="{!!asset('webpage/demos/conference/images/speakers/4.jpg')!!}"
-                                        alt="David Sihotang">
+                                    <img src="{!! asset('webpage/demos/conference/images/speakers/4.jpg') !!}" alt="David Sihotang">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -358,8 +352,7 @@
 
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
-                                    <img src="{!!asset('webpage/demos/conference/images/speakers/3.jpg')!!}"
-                                        alt="Adi Sinaga">
+                                    <img src="{!! asset('webpage/demos/conference/images/speakers/3.jpg') !!}" alt="Adi Sinaga">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -375,7 +368,7 @@
                 <div class="clear"></div>
 
                 <!-- Section Schedule
-				============================================= -->
+    ============================================= -->
                 <div id="schedule" class="section page-section bg-transparent pt-0 topmargin clearix">
                     <div class="container">
                         <div class="mb-5 dark d-flex justify-content-between align-items-center">
@@ -388,11 +381,14 @@
                                 <ul class="tab-nav d-flex clearfix">
                                     <li class="flex-fill"><a href="#tabs-portfolio">Portfolio</a></li>
                                     <li class="flex-fill"><a href="#tabs-wednesday">Wednesday <span
-                                                class="d-none d-md-inline-block">Ev. {{$Y}}</span></a></li>
+                                                class="d-none d-md-inline-block">Ev. {{ $Y }}</span></a>
+                                    </li>
                                     <li class="flex-fill"><a href="#tabs-1">Saturday <span
-                                                class="d-none d-md-inline-block">Ev. {{$Y}}</span></a></li>
+                                                class="d-none d-md-inline-block">Ev. {{ $Y }}</span></a>
+                                    </li>
                                     <li class="flex-fill"><a href="#tabs-2">Sunday <span
-                                                class="d-none d-md-inline-block">Ev. {{$Y}}</span></a></li>
+                                                class="d-none d-md-inline-block">Ev. {{ $Y }}</span></a>
+                                    </li>
                                 </ul>
 
                                 <div class="tab-container mt-5">
@@ -402,7 +398,7 @@
                                                 <div class="schedule-time font-primary">2022</div>
                                             </dt>
                                             <dd class="col-sm-8"
-                                                style="background-image: url('{!!asset('webpage/demos/conference/images/portfolio/6.jpg')!!}')">
+                                                style="background-image: url('{!! asset('webpage/demos/conference/images/portfolio/6.jpg') !!}')">
                                                 <div class="schedule-desc"><a
                                                         href="https://www.youtube.com/playlist?list=PLaouje9jvbM9GLgAA-8FCG5dWvXrIDv5a"
                                                         target="_blank">Higher Steps and Dining</a><small>Click to see
@@ -413,7 +409,7 @@
                                                 <div class="schedule-time font-primary">2022</div>
                                             </dt>
                                             <dd class="col-sm-8"
-                                                style="background-image: url('{!!asset('webpage/demos/conference/images/portfolio/5.jpg')!!}')">
+                                                style="background-image: url('{!! asset('webpage/demos/conference/images/portfolio/5.jpg') !!}')">
                                                 <div class="schedule-desc"><a
                                                         href="https://www.youtube.com/playlist?list=PLaouje9jvbM81CAXMFm5N9KcqHPxcEJHX"
                                                         target="_blank">Cello Sky Pool and Bar</a><small>Click to see
@@ -424,17 +420,18 @@
                                                 <div class="schedule-time font-primary">2022</div>
                                             </dt>
                                             <dd class="col-sm-8"
-                                                style="background-image: url('{!!asset('webpage/demos/conference/images/portfolio/1.jpg')!!}')">
+                                                style="background-image: url('{!! asset('webpage/demos/conference/images/portfolio/1.jpg') !!}')">
                                                 <div class="schedule-desc"><a
                                                         href="https://youtube.com/playlist?list=PLaouje9jvbM9jbgUw_0SdUnY8YhLaohP9"
-                                                        target="_blank">Tengah People & Place</a><small>Click to see our
+                                                        target="_blank">Tengah People & Place</a><small>Click to see
+                                                        our
                                                         porfolio in youtube</small></div>
                                             </dd>
                                             <dt class="col-sm-4">
                                                 <div class="schedule-time font-primary">2022</div>
                                             </dt>
                                             <dd class="col-sm-8"
-                                                style="background-image: url('{!!asset('webpage/demos/conference/images/portfolio/2.jpg')!!}')">
+                                                style="background-image: url('{!! asset('webpage/demos/conference/images/portfolio/2.jpg') !!}')">
                                                 <div class="schedule-desc"><a
                                                         href="https://youtube.com/playlist?list=PLaouje9jvbM-p1xfvKlj6Z5RV8brLiOwl"
                                                         target="_blank">Shiloh Coffee &
@@ -445,7 +442,7 @@
                                                 <div class="schedule-time font-primary">2021 - Current</div>
                                             </dt>
                                             <dd class="col-sm-8"
-                                                style="background-image: url('{!!asset('webpage/demos/conference/images/portfolio/3.jpg')!!}')">
+                                                style="background-image: url('{!! asset('webpage/demos/conference/images/portfolio/3.jpg') !!}')">
                                                 <div class="schedule-desc"><a
                                                         href="https://youtube.com/playlist?list=PLaouje9jvbM_NwIOr9MIAo-M0lRI9z1dd"
                                                         target="_blank">XC Coffee & Resto</a><small>Click to see our
@@ -455,7 +452,7 @@
                                                 <div class="schedule-time font-primary">2021</div>
                                             </dt>
                                             <dd class="col-sm-8"
-                                                style="background-image: url('{!!asset('webpage/demos/conference/images/portfolio/4.jpg')!!}')">
+                                                style="background-image: url('{!! asset('webpage/demos/conference/images/portfolio/4.jpg') !!}')">
                                                 <div class="schedule-desc"><a
                                                         href="https://youtube.com/playlist?list=PLaouje9jvbM9mBVWBx9TGhjlMl3ZoR8yI"
                                                         target="_blank">Janji Rasa</a><small>Click to see our
@@ -472,7 +469,8 @@
                                             <dd class="col-sm-8">
                                                 <div class="schedule-desc">Cello Skypool & Lounge Bar <small><a
                                                             href="https://instagram.com/celloskypoolbar"
-                                                            target="_blank"></a>Jl. Danau Marsabut No.90, Sei Agul, Kec.
+                                                            target="_blank"></a>Jl. Danau Marsabut No.90, Sei Agul,
+                                                        Kec.
                                                         Medan Bar., Kota Medan, Sumatera Utara 20114</small>
                                                     <a href="https://instagram.com/celloskypoolbar" target="_blank"
                                                         class="social-icon si-medium si-borderless si-light si-rounded si-instagram mt-3">
@@ -537,7 +535,7 @@
                 <div class="clear"></div>
 
                 <!-- Section Tickets
-				============================================= -->
+    ============================================= -->
                 <div id="proposal-request" class="section page-section bg-transparent pt-0 clearfix">
                     <div class="container">
                         <div class="mb-5 dark d-flex justify-content-between align-items-center">
@@ -565,7 +563,7 @@
                             <a href="https://wa.me/6285195211098"
                                 class="button button-xxlarge button-white button-light button-gradient-hover mt-4">Whatsapp
                                 kami</a>
-                            <a href="/sc/business/proposal/{{$Y}}"
+                            <a href="/sc/business/proposal/{{ $Y }}"
                                 class="button button-xxlarge button-white button-light button-gradient-hover mt-4">Our
                                 Proposal</a>
                         </div>
@@ -575,7 +573,7 @@
                 <div class="clear"></div>
 
                 <!-- Section Sponsors
-				============================================= -->
+    ============================================= -->
                 {{-- <div id="section-sponsors" class="section page-section bg-transparent pt-0 topmargin-lg clearfix">
                     <div class="container">
                         <div class="mb-5 dark d-flex justify-content-between align-items-center">
@@ -619,7 +617,7 @@
 
                 {{-- <div class="clear"></div> --}}
                 <!-- Upcoming Events
-				============================================= -->
+    ============================================= -->
                 {{-- <div class="section bg-transparent m-0 clearfix">
 
                     <div class="container">
@@ -666,13 +664,13 @@
         </section><!-- #content end -->
 
         <!-- Footer
-		============================================= -->
+  ============================================= -->
         <footer id="footer" class="dark"
             style="background: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.03)); border-top-color: #222">
             <div class="container">
 
                 <!-- Footer Widgets
-				============================================= -->
+    ============================================= -->
                 <div class="footer-widgets-wrap">
                     <div class="row clearfix">
 
@@ -681,10 +679,9 @@
                             <div class="widget clearfix">
                                 <div class="row clearfix">
                                     <div class="col-lg-12 bottommargin-sm clearfix" style="color:#888;">
-                                        <img class="mb-3"
-                                            src="{!!asset('webpage/demos/conference/images/makustik-logo-new-min.png')!!}"
-                                            alt="{{$makustik_name}} Logo" style="display: block;" height="100">
-                                        <p>Hi, we're {{$makustik_name}}, and we are proudly sing at cafes, weddings,
+                                        <img class="mb-3" src="{!! asset('webpage/demos/conference/images/makustik-logo-new-min.png') !!}"
+                                            alt="{{ $makustik_name }} Logo" style="display: block;" height="100">
+                                        <p>Hi, we're {{ $makustik_name }}, and we are proudly sing at cafes, weddings,
                                             gatherings,birthdays, reunions, and outdoors.</p>
 
                                         <a href="/facebook" target="_blank"
@@ -743,12 +740,12 @@
             </div>
 
             <!-- Copyrights
-			============================================= -->
+   ============================================= -->
             <div id="copyrights" class="bg-transparent pt-0">
                 <div class="container clearfix">
 
                     <div class="w-100 text-center text-md-start">
-                        Copyrights &copy; {{$Y}}. All Rights Reserved by <a style="color: #ec7e00;"
+                        Copyrights &copy; {{ $Y }}. All Rights Reserved by <a style="color: #ec7e00;"
                             href="https://boxity.id" target="_blank">Boxity
                             Central Indonesia</a>, and managed by <abbr title="Stopover Management">Stopover
                             Management</abbr>.<br>
@@ -762,21 +759,21 @@
     </div><!-- #wrapper end -->
 
     <!-- Go To Top
-	============================================= -->
+ ============================================= -->
     <div id="gotoTop" class="icon-angle-up"></div>
 
     <!-- JavaScripts
-	============================================= -->
-    <script src="{!!asset('webpage/js/jquery.js')!!}"></script>
-    <script src="{!!asset('webpage/js/plugins.min.js')!!}"></script>
+ ============================================= -->
+    <script src="{!! asset('webpage/js/jquery.js') !!}"></script>
+    <script src="{!! asset('webpage/js/plugins.min.js') !!}"></script>
     {{-- <script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script> --}}
 
     <!-- Footer Scripts
-	============================================= -->
-    <script src="{!!asset('webpage/js/functions.js')!!}"></script>
+ ============================================= -->
+    <script src="{!! asset('webpage/js/functions.js') !!}"></script>
 
     <script>
-        jQuery(document).ready(function () {
+        jQuery(document).ready(function() {
 
             // Ticket Price Changed Script
             var elementEarlyBird = $("#early-bird-person"),
@@ -784,28 +781,27 @@
                 element2Day = $("#2-day-pricing-person"),
                 elementFull = $("#full-pricing-person");
 
-            elementEarlyBird.on('change', function () {
+            elementEarlyBird.on('change', function() {
                 pricingEarlyBird = $(this).prop('value');
                 jQuery('.early-bird-pricing').html('$' + (pricingEarlyBird * 39));
             });
 
-            element1Day.on('change', function () {
+            element1Day.on('change', function() {
                 pricing1day = $(this).prop('value');
                 jQuery('.1-day-pricing').html('$' + (pricing1day * 29));
             });
 
-            element2Day.on('change', function () {
+            element2Day.on('change', function() {
                 pricing2Day = $(this).prop('value');
                 jQuery('.2-day-pricing').html('$' + (pricing2Day * 49));
             });
 
-            elementFull.on('change', function () {
+            elementFull.on('change', function() {
                 pricingFull = $(this).prop('value');
                 jQuery('.full-pricing').html('$' + (pricingFull * 69));
             });
 
         });
-
     </script>
 
 </body>
