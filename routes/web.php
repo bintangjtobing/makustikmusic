@@ -30,7 +30,7 @@ Route::get('/hello-there', function () {
 //     return Redirect::to('https://linkedin.com/company/boxity-central-indonesia');
 // });
 Route::get('/whatsapp', function () {
-    return Redirect::to('http://wa.me/6285195211098');
+    return Redirect::to('http://wa.me/6281262845980');
 });
 Route::get('/instagram', function () {
     return Redirect::to('http://www.instagram.com/makustikmusic');
